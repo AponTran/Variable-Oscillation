@@ -1,0 +1,39 @@
+/* @import '~antd/dist/antd.css'; */
+
+.ant-table-thead tr th {
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+}
+
+.category-wrap {
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 20px;
+}
+
+.category-wrap h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.category-wrap button {
+    margin-bottom: 10px;
+}
+
+.dynamic-delete-button {
+    position: relative;
+    top: 4px;
+    margin: 0 8px;
+    color: #999;
+    font-size: 24px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  .dynamic-delete-button:hover {
+    color: #777;
+  }
+  .dynamic-delete-button[disabled] {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }

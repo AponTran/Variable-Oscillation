@@ -1,0 +1,25 @@
+# dependencies
+node_modules
+
+# testing
+coverage
+
+# production
+build
+group5-api.zip
+
+# misc
+.DS_Store
+.env
+npm-debug.log
+
+# ignore api node_modules
+./api/node_modules
+
+# ignore manager node_modules
+./manager/node_modules
+
+# ignore web node_modules
+./web/node_modules
+api/src/config.js
+api/src/config.js
